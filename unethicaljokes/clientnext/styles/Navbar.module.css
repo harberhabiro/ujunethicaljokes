@@ -1,0 +1,129 @@
+.navBar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg,#0bf,#a1f);
+    color: #fff;
+    height: 80px;
+    padding: 8px 24px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navCenter {
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger .burgerLink {
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+.textNav .textNavLinks {
+    padding: 0px 24px;
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.textNav .textNavLinks:hover, .burger .burgerLink:hover {
+    color: #0bf;
+}
+
+.searchBar {
+    width: 30%;
+}
+
+.searchBar form {
+    width: 100%;
+    height: 52px;
+    position: relative;
+}
+
+.searchBar form input {
+    height: 100%;
+    padding: 0 18px;
+    padding-right: 60px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 1rem;
+    border: none;
+    background-color: #5538b5;
+    color: #fff;
+    outline: none;
+}
+
+.searchBar form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    color: #9b7dff;
+    background-color: #5538b5;
+    border: none;
+    border-radius: 12px;
+    opacity: .6;
+    font-size: 20px;
+}
+
+.navRightLink {
+    padding: 0px 14px;
+    font-weight: 700;
+    font-size: .75rem;
+}
+
+.navRightLink:hover {
+    color: #0bf;
+}
+
+@media screen and (max-width: 1365px) {
+    .textNav {
+        display: none;
+    }
+
+    .searchBar {
+        width: 50%;
+        margin-right: 26px;
+    }
+}
+
+@media screen and (max-width: 878px) {
+
+    .navBar {
+        height: 60px;
+    }
+
+    .searchBar {
+        width: 80%;
+        height: 100%;
+        margin-right: -24.2px !important;
+    }
+
+    .searchBar form {
+        top: -8px;
+        height: 137%!important;
+    }
+
+    .searchBar form input {
+        border-radius: 0;
+    }
+
+    .navRight {
+        display: none;
+    }
+}

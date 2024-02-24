@@ -1,0 +1,110 @@
+.about {
+    border: 1px solid #161b28;
+    padding: 32px 28px;
+    border-radius: 12px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+    position: relative;
+}
+
+.faqs, .terms, .privacy, .contact, .rules, .verify, .changeBio {
+    border: 1px solid #161b28;
+    padding: 32px 28px;
+    border-radius: 12px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+    position: relative;
+}
+
+.rules {
+    margin-top: 3rem !important;
+}
+
+.articleItem {
+    margin-top: 1rem !important;
+    margin-bottom: 40px;
+}
+
+.articleHeading {
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+}
+
+.articleText {
+    font-size: .875rem;
+    line-height: 1.7142857143em;
+    font-weight: 300;
+    margin-top: 1rem !important;
+    margin: 0;
+}
+
+.terms h1, .privacy h1, .contact h1 {
+    margin-bottom: 1rem !important;
+}
+
+.link {
+    color: #4ff461;
+}
+
+/* rules part */
+.rules .ruleInfo {
+    font-size: .875rem;
+    line-height: 1.7142857143em;
+    font-weight: 500;
+}
+
+.rules ol {
+    margin-top: 18px;
+    list-style: none;
+    padding: 0;
+}
+
+.rules ol li {
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.rules .listNumber {
+    flex-shrink: 0;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.7142857143em;
+    width: 28px;
+    margin-right: 10px;
+}
+
+.rules .listText {
+    font-size: .875rem;
+    line-height: 1.7142857143em;
+    font-weight: 500;
+}
+
+/* annoucements */
+.annoucements {
+    margin-bottom: 0;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 88px;
+    padding: 22px 28px;
+    border-radius: 12px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+    position: relative;
+}
+
+.annoucements .annouceItem {
+    width: 100%;
+    padding-left: 0 !important;
+    min-height: 44px;
+    padding: 2px 0 0 52px;
+    position: relative;
+}
+
+.annouceText {
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.4285714286em;
+}

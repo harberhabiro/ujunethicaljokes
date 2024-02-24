@@ -1,0 +1,136 @@
+.sideNav {
+    margin-top: 0;
+    z-index: 100000;
+    position: fixed;
+    padding-top: 0;
+    overflow-y: auto;
+    transition: transform .35s ease-in-out .25s,-webkit-transform .35s ease-in-out .25s;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    padding-bottom: 40px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+}
+
+.sideNav span {
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 12px 24px;
+}
+
+.sideNav span i {
+    color: #616a82;
+    font-size: 24px;
+}
+
+.sideNav span i:hover {
+    color: #40d04f;
+    cursor: pointer;
+}
+
+.sideNav p {
+    padding-left: 30px;
+    color: #9aa4bf;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem !important;
+    line-height: 1em;
+}
+
+.sideNav ul {
+    margin-top: 26px;
+    list-style: none;
+}
+
+.sideNav li {
+    padding: 0 16px;
+    margin-bottom: 10px;
+}
+
+.sideNav .links {
+    display: block;
+    height: 48px;
+    padding-left: 13px;
+    border-radius: 12px;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.sideNav .links:hover {
+    background-color: #293249;
+    color: #fff;
+    padding-left: 25px;
+    box-shadow: 3px 5px 20px 0 rgb(0 0 0 / 12%);
+}
+
+.sideNav .links i {
+    position: absolute;
+    top: 14px;
+    left: -28px;
+    pointer-events: none;
+    transition: all .2s ease-in-out;
+    color: #adafca;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.sideNav li:last-child {
+    margin-bottom: 0!important;
+}
+
+.sideNav .account {
+    margin-top: 1rem !important;
+}
+
+.sideNav .account p {
+    padding-left: 30px;
+    color: #9aa4bf;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.sideNav .accountLinks {
+    margin-top: 14px;
+    display: block;
+    padding: 12px 30px;
+    font-size: .875rem;
+    font-weight: 700;
+    transition: padding .2s ease-in-out,color .2s ease-in-out;
+    line-height: 1em;
+}
+
+.sideNav .accountLinks:hover {
+    color: #40d04f;
+    padding-left: 40px;
+    /* box-shadow: 3px 5px 20px 0 rgb(0 0 0 / 12%); */
+}
+
+.sideNav .allLinks {
+    margin-top: 14px;
+    display: block;
+    padding: 12px 30px;
+    font-size: .875rem;
+    font-weight: 700;
+    transition: padding .2s ease-in-out,color .2s ease-in-out;
+    line-height: 1em;
+}
+
+.allLinks:hover {
+    color: #40d04f;
+    padding-left: 40px;
+}
+
+@media screen and (min-width: 878px) {
+    .sideNav {
+        margin-top: 80px;
+    }
+}

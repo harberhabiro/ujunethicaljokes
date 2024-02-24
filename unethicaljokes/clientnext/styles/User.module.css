@@ -1,0 +1,52 @@
+.userParent {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.userProfile {
+    border: 1px solid #161b28;
+    padding: 32px 28px;
+    border-radius: 12px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+    /* position: relative; */
+    flex: 50%;
+    width: 50%;
+}
+
+.userProfilePic {
+    padding-top: 68px;
+    position: relative;
+}
+
+.picStyle {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 42px;
+    border-radius: 50%;
+}
+
+.profileContent {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.profileContentHeading {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.profileHeadingOne {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.profileHeadingTwo {
+    margin-top: 6px;
+    color: #9aa4bf;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1em;
+}

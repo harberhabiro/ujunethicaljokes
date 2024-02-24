@@ -1,0 +1,121 @@
+.changes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.changeBoxes {
+    height: 140px;
+    border-radius: 12px;
+    margin: 0 16px;
+    width: 130px;
+    background-color: #1d2333;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 6%);
+    /* position: relative; */
+}
+
+.changeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    cursor: pointer;
+    transition: transform .2s ease-in-out,box-shadow .25s ease-in-out,-webkit-transform .2s ease-in-out;
+}
+
+.changeBox:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 12%);
+}
+
+.changeIcon  {
+    font-size: 20px;
+    color: #616a82;
+    transition: color .25s ease-in-out;
+}
+
+.changeBox:hover .changeIcon {
+    color: #4ff461;
+}
+
+.changeTitle {
+    margin-top: 26px;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.changeTxt {
+    margin-top: 4px;
+    color: #9aa4bf;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.changeAvatarImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* position: absolute; */
+    margin-left: 12%;
+    margin-top: 17%;
+}
+
+.changeAvatarIcon {
+    border-radius: 50%;
+    font-size: 100px;
+    margin-left: 22%;
+    margin-top: 17%;
+}
+
+.bioTxt {
+    resize: none;
+    font-size: .875rem;
+    height: 100%;
+    padding: 14px 18px;
+    width: 100%;
+    background-color: #1d2333;
+    border: 1px solid #3f485f;
+    color: #fff;
+    transition: border-color .2s ease-in-out;
+    border-radius: 12px;
+}
+
+.bioTxt:focus {
+    outline: 1px solid red;
+}
+
+.bioBtn {
+    width: 128px;
+    margin-top: 40px;
+    background-color: #40d04f;
+    box-shadow: 4px 7px 12px 0 rgb(64 208 79 / 20%);
+    height: 40px;
+    font-size: .75rem;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out,border-color .2s ease-in-out,box-shadow .2s ease-in-out;
+}
+
+.bioBtn:hover {
+    background-color: #4ae95b;
+}
+
+@media screen and (max-width: 516px) {
+    
+    .changes {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .changeBoxes:not(.changePass) {
+        margin-bottom: 16px;
+    }
+}
